@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Tabs from './state/Tabs';
+import HelloWorld from './state-drills/HelloWorld';
 import './App.css';
 
 const tabsProp = [
@@ -15,8 +15,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Tabs
-          tabs={tabsProp} 
+        <HelloWorld
+            
         />
       </div>
     );
