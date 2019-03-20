@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import HelloWorld from './state-drills/HelloWorld';
+import Bomb from './state-drill/Bomb';
 import './App.css';
 
 const tabsProp = [
@@ -15,8 +15,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <HelloWorld
-            
+        <Bomb
+
         />
       </div>
     );
