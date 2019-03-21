@@ -12,10 +12,11 @@ class Accordion extends React.Component{
         console.log(this.state.showContent)
     }
     renderButton(){
+        console.log(this)
         const buttons = this.props.accordionSections.map((section, index) => (
             <li key={index}>
                 <button onClick={() => this.handleButton(index)}> {section.title}</button>
-                <p>{this.renderContent(index)}</p>
+                {this.renderContent(index)}
             </li>
         ))
         return buttons;
